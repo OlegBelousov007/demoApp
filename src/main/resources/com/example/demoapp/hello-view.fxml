@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e6c8ed;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoapp.HelloController">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="182.0" layoutY="14.0" style="-fx-background-color: #4a148c;" text="BaybouolApp" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="GOST type A" size="55.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="131.0" style="-fx-background-color: #4a148c;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="144.0" layoutY="200.0" style="-fx-background-color: #4a148c;" text="Password" textFill="WHITE" />
+      <PasswordField fx:id="passwordTextfild" layoutX="226.0" layoutY="196.0" />
+      <TextField fx:id="loginTextFild" layoutX="226.0" layoutY="127.0" />
+      <Button fx:id="enterButton" layoutX="267.0" layoutY="255.0" mnemonicParsing="false" onAction="#enterSystemButtonClick" style="-fx-background-color: #4a148c;" text="Log in" textFill="#f5f3f3">
+         <font>
+            <Font name="GOST type A" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
